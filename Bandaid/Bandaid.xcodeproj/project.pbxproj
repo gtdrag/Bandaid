@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D62ECAC31D3EA96D00B5271D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAC21D3EA96D00B5271D /* AppDelegate.swift */; };
+		D62ECAC51D3EA96D00B5271D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAC41D3EA96D00B5271D /* ViewController.swift */; };
+		D62ECAC81D3EA96D00B5271D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62ECAC61D3EA96D00B5271D /* Main.storyboard */; };
+		D62ECACA1D3EA96D00B5271D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62ECAC91D3EA96D00B5271D /* Assets.xcassets */; };
+		D62ECACD1D3EA96D00B5271D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62ECACB1D3EA96D00B5271D /* LaunchScreen.storyboard */; };
+		D62ECAD81D3EA96E00B5271D /* BandaidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAD71D3EA96E00B5271D /* BandaidTests.swift */; };
+		D62ECAE31D3EA96E00B5271D /* BandaidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAE21D3EA96E00B5271D /* BandaidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D62ECAD41D3EA96E00B5271D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62ECAB71D3EA96D00B5271D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62ECABE1D3EA96D00B5271D;
+			remoteInfo = Bandaid;
+		};
+		D62ECADF1D3EA96E00B5271D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62ECAB71D3EA96D00B5271D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62ECABE1D3EA96D00B5271D;
+			remoteInfo = Bandaid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D62ECABF1D3EA96D00B5271D /* Bandaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bandaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62ECAC21D3EA96D00B5271D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D62ECAC41D3EA96D00B5271D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D62ECAC71D3EA96D00B5271D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D62ECAC91D3EA96D00B5271D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D62ECACC1D3EA96D00B5271D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D62ECACE1D3EA96E00B5271D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62ECAD31D3EA96E00B5271D /* BandaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62ECAD71D3EA96E00B5271D /* BandaidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandaidTests.swift; sourceTree = "<group>"; };
+		D62ECAD91D3EA96E00B5271D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62ECADE1D3EA96E00B5271D /* BandaidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandaidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62ECAE21D3EA96E00B5271D /* BandaidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandaidUITests.swift; sourceTree = "<group>"; };
+		D62ECAE41D3EA96E00B5271D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D62ECABC1D3EA96D00B5271D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62ECAD01D3EA96E00B5271D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62ECADB1D3EA96E00B5271D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D62ECAB61D3EA96D00B5271D = {
+			isa = PBXGroup;
+			children = (
+				D62ECAC11D3EA96D00B5271D /* Bandaid */,
+				D62ECAD61D3EA96E00B5271D /* BandaidTests */,
+				D62ECAE11D3EA96E00B5271D /* BandaidUITests */,
+				D62ECAC01D3EA96D00B5271D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D62ECAC01D3EA96D00B5271D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62ECABF1D3EA96D00B5271D /* Bandaid.app */,
+				D62ECAD31D3EA96E00B5271D /* BandaidTests.xctest */,
+				D62ECADE1D3EA96E00B5271D /* BandaidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D62ECAC11D3EA96D00B5271D /* Bandaid */ = {
+			isa = PBXGroup;
+			children = (
+				D62ECAC21D3EA96D00B5271D /* AppDelegate.swift */,
+				D62ECAC41D3EA96D00B5271D /* ViewController.swift */,
+				D62ECAC61D3EA96D00B5271D /* Main.storyboard */,
+				D62ECAC91D3EA96D00B5271D /* Assets.xcassets */,
+				D62ECACB1D3EA96D00B5271D /* LaunchScreen.storyboard */,
+				D62ECACE1D3EA96E00B5271D /* Info.plist */,
+			);
+			path = Bandaid;
+			sourceTree = "<group>";
+		};
+		D62ECAD61D3EA96E00B5271D /* BandaidTests */ = {
+			isa = PBXGroup;
+			children = (
+				D62ECAD71D3EA96E00B5271D /* BandaidTests.swift */,
+				D62ECAD91D3EA96E00B5271D /* Info.plist */,
+			);
+			path = BandaidTests;
+			sourceTree = "<group>";
+		};
+		D62ECAE11D3EA96E00B5271D /* BandaidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D62ECAE21D3EA96E00B5271D /* BandaidUITests.swift */,
+				D62ECAE41D3EA96E00B5271D /* Info.plist */,
+			);
+			path = BandaidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D62ECABE1D3EA96D00B5271D /* Bandaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62ECAE71D3EA96E00B5271D /* Build configuration list for PBXNativeTarget "Bandaid" */;
+			buildPhases = (
+				D62ECABB1D3EA96D00B5271D /* Sources */,
+				D62ECABC1D3EA96D00B5271D /* Frameworks */,
+				D62ECABD1D3EA96D00B5271D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bandaid;
+			productName = Bandaid;
+			productReference = D62ECABF1D3EA96D00B5271D /* Bandaid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D62ECAD21D3EA96E00B5271D /* BandaidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62ECAEA1D3EA96E00B5271D /* Build configuration list for PBXNativeTarget "BandaidTests" */;
+			buildPhases = (
+				D62ECACF1D3EA96E00B5271D /* Sources */,
+				D62ECAD01D3EA96E00B5271D /* Frameworks */,
+				D62ECAD11D3EA96E00B5271D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62ECAD51D3EA96E00B5271D /* PBXTargetDependency */,
+			);
+			name = BandaidTests;
+			productName = BandaidTests;
+			productReference = D62ECAD31D3EA96E00B5271D /* BandaidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D62ECADD1D3EA96E00B5271D /* BandaidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62ECAED1D3EA96E00B5271D /* Build configuration list for PBXNativeTarget "BandaidUITests" */;
+			buildPhases = (
+				D62ECADA1D3EA96E00B5271D /* Sources */,
+				D62ECADB1D3EA96E00B5271D /* Frameworks */,
+				D62ECADC1D3EA96E00B5271D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62ECAE01D3EA96E00B5271D /* PBXTargetDependency */,
+			);
+			name = BandaidUITests;
+			productName = BandaidUITests;
+			productReference = D62ECADE1D3EA96E00B5271D /* BandaidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62ECAB71D3EA96D00B5271D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "George Drag";
+				TargetAttributes = {
+					D62ECABE1D3EA96D00B5271D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XXG7PHMB48;
+						DevelopmentTeamName = "Red Foundry (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					D62ECAD21D3EA96E00B5271D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XXG7PHMB48;
+						DevelopmentTeamName = "Red Foundry (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = D62ECABE1D3EA96D00B5271D;
+					};
+					D62ECADD1D3EA96E00B5271D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XXG7PHMB48;
+						DevelopmentTeamName = "Red Foundry (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = D62ECABE1D3EA96D00B5271D;
+					};
+				};
+			};
+			buildConfigurationList = D62ECABA1D3EA96D00B5271D /* Build configuration list for PBXProject "Bandaid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D62ECAB61D3EA96D00B5271D;
+			productRefGroup = D62ECAC01D3EA96D00B5271D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62ECABE1D3EA96D00B5271D /* Bandaid */,
+				D62ECAD21D3EA96E00B5271D /* BandaidTests */,
+				D62ECADD1D3EA96E00B5271D /* BandaidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D62ECABD1D3EA96D00B5271D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62ECACD1D3EA96D00B5271D /* LaunchScreen.storyboard in Resources */,
+				D62ECACA1D3EA96D00B5271D /* Assets.xcassets in Resources */,
+				D62ECAC81D3EA96D00B5271D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62ECAD11D3EA96E00B5271D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62ECADC1D3EA96E00B5271D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62ECABB1D3EA96D00B5271D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62ECAC51D3EA96D00B5271D /* ViewController.swift in Sources */,
+				D62ECAC31D3EA96D00B5271D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62ECACF1D3EA96E00B5271D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62ECAD81D3EA96E00B5271D /* BandaidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62ECADA1D3EA96E00B5271D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62ECAE31D3EA96E00B5271D /* BandaidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D62ECAD51D3EA96E00B5271D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62ECABE1D3EA96D00B5271D /* Bandaid */;
+			targetProxy = D62ECAD41D3EA96E00B5271D /* PBXContainerItemProxy */;
+		};
+		D62ECAE01D3EA96E00B5271D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62ECABE1D3EA96D00B5271D /* Bandaid */;
+			targetProxy = D62ECADF1D3EA96E00B5271D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D62ECAC61D3EA96D00B5271D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62ECAC71D3EA96D00B5271D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D62ECACB1D3EA96D00B5271D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62ECACC1D3EA96D00B5271D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D62ECAE51D3EA96E00B5271D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D62ECAE61D3EA96E00B5271D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D62ECAE81D3EA96E00B5271D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bandaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gtd.Bandaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D62ECAE91D3EA96E00B5271D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bandaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gtd.Bandaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D62ECAEB1D3EA96E00B5271D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BandaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gtd.BandaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bandaid.app/Bandaid";
+			};
+			name = Debug;
+		};
+		D62ECAEC1D3EA96E00B5271D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BandaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gtd.BandaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bandaid.app/Bandaid";
+			};
+			name = Release;
+		};
+		D62ECAEE1D3EA96E00B5271D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BandaidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gtd.BandaidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bandaid;
+			};
+			name = Debug;
+		};
+		D62ECAEF1D3EA96E00B5271D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BandaidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gtd.BandaidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bandaid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62ECABA1D3EA96D00B5271D /* Build configuration list for PBXProject "Bandaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62ECAE51D3EA96E00B5271D /* Debug */,
+				D62ECAE61D3EA96E00B5271D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62ECAE71D3EA96E00B5271D /* Build configuration list for PBXNativeTarget "Bandaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62ECAE81D3EA96E00B5271D /* Debug */,
+				D62ECAE91D3EA96E00B5271D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D62ECAEA1D3EA96E00B5271D /* Build configuration list for PBXNativeTarget "BandaidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62ECAEB1D3EA96E00B5271D /* Debug */,
+				D62ECAEC1D3EA96E00B5271D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D62ECAED1D3EA96E00B5271D /* Build configuration list for PBXNativeTarget "BandaidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62ECAEE1D3EA96E00B5271D /* Debug */,
+				D62ECAEF1D3EA96E00B5271D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D62ECAB71D3EA96D00B5271D /* Project object */;
+}
