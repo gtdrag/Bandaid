@@ -1,1549 +1,591 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>013FFB2C31A9BB1C48B703E5EE9DFBF8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D71E939EE2715B6F6BD54E78195A68A8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0152EF7C477F3C4F93AB4E75F6057D50</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>65CAA4C7A2271569E6139759A2B194C1</string>
-				<string>50FB4F936A7DA8769E33AB8C81D3EA5D</string>
-				<string>B3CCB9E8982410EC3C2C0B1B792BD0B0</string>
-				<string>8DB3B4B4552B08003D4FA7F212BF6011</string>
-				<string>B9B2B1ED73C82E62929E911A694B6E5D</string>
-				<string>AD8FCEECD8F5E3C7EC9375D29FE8D907</string>
-				<string>31221335B3630ECB1B7479DB84BF698A</string>
-				<string>71F24F20685DC267EB29E6E080001387</string>
-				<string>B5972448D190D60C0AD53E4DB0C0B319</string>
-				<string>9407C1918A6F54C7329CDDFB821C871C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Bandaid</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Bandaid</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0164C0DECB944132883DC1F8FC9FD448</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>70CDA5BBFE1DFB421221FD62A968FD20</string>
-				<string>E9E9286811992080FD7AF207B37C7C64</string>
-				<string>BF0A61F16772665242317BDB75DA1223</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>031E854E9FAE58144F37ED57F233A6A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BandaidUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>05F61413B4025BEC1D62A409583CB0AC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3053990CA0B239DFFF80C98B767BB3B9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>08C8D3834F6ECCEF080848EDCB4B46D1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-BandaidUITests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0976D4C35A92429865F73C3F329D3AE2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E5E9CF04C6AB223D5A639C06A8EAE3B5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-BandaidTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-BandaidTests/Pods-BandaidTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_BandaidTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0EA25B7BE5F4EA69E0C15D4FF254B716</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E1040B54153033F60C936DDEECC0063C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1C3C7B0B7E83622E011B1AC2D6896B95</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-BandaidUITests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F2F9A12AC5B4B9D369CE2E2ADF2B4E3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>30C68DEB0A52CD7F5B6178EDBED4DDF5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>66A095D6860895D329B43E336A6F2E4C</string>
-				<string>FAD44A03FC073C398744E11E9CBCAD98</string>
-				<string>79A61834B5268FDE6D5FD351893758E8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Bandaid</string>
-			<key>productName</key>
-			<string>Pods-Bandaid</string>
-			<key>productReference</key>
-			<string>70CDA5BBFE1DFB421221FD62A968FD20</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AE9439C22469D35336242DD983DB5C5F</string>
-				<string>42287DDF97330524BA3EF220F0276DA6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3053990CA0B239DFFF80C98B767BB3B9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08C8D3834F6ECCEF080848EDCB4B46D1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>30C68DEB0A52CD7F5B6178EDBED4DDF5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3AB76BEBFCE8DFCB655702793E9DD607</string>
-				<string>FAB4BFD9CAB7B173A9008B90E9C2BBA0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>31221335B3630ECB1B7479DB84BF698A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Bandaid-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3396E5BA8427989C79CB8A14434E8F89</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>031E854E9FAE58144F37ED57F233A6A9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-BandaidUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-BandaidUITests/Pods-BandaidUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_BandaidUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>373C6899C68C7978E5FBD4C4A60E5010</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-BandaidTests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3AB76BEBFCE8DFCB655702793E9DD607</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B5972448D190D60C0AD53E4DB0C0B319</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Bandaid/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Bandaid/Pods-Bandaid.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Bandaid</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3C56FE7912CDE723DCDE17863A7023F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3DCAB2B7CDE207B3958B6CB957FCC758</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>42287DDF97330524BA3EF220F0276DA6</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_RELEASE=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>42F889628DA21C9094AFAFB7580FAEC6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-BandaidTests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>442ED99C0E06C044FE894DA9AE7E90CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-BandaidTests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46D34EA07D5B860F7BFA6349792CDBDA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BandaidTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50FB4F936A7DA8769E33AB8C81D3EA5D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Bandaid.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64232C272818AE6BAD194DB75D4480AD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3C56FE7912CDE723DCDE17863A7023F8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>65CAA4C7A2271569E6139759A2B194C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66A095D6860895D329B43E336A6F2E4C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A70DCFB723C912CF75F54808C3D2F478</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>66B5719DAE35E942B6A5C1902C7EE3C3</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3396E5BA8427989C79CB8A14434E8F89</string>
-				<string>C7E4CD7C37BEB963B17D42E60A882CD1</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>67F2E8CA95D6748F47D8CE94CED3895F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>66B5719DAE35E942B6A5C1902C7EE3C3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>05F61413B4025BEC1D62A409583CB0AC</string>
-				<string>013FFB2C31A9BB1C48B703E5EE9DFBF8</string>
-				<string>82A7F9CC52370C8258A83E4B907FEC41</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-BandaidUITests</string>
-			<key>productName</key>
-			<string>Pods-BandaidUITests</string>
-			<key>productReference</key>
-			<string>BF0A61F16772665242317BDB75DA1223</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>70CDA5BBFE1DFB421221FD62A968FD20</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Bandaid.framework</string>
-			<key>path</key>
-			<string>Pods-Bandaid.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>71BF147FE5185EB7897D5A0C4B2DC900</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-BandaidUITests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>71F24F20685DC267EB29E6E080001387</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Bandaid-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>786BF65F99BE5696B3A713E928384A52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-BandaidTests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79A61834B5268FDE6D5FD351893758E8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DFC9F2BC4D4D18B6358C1332778B51E2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7B14C0BFDB209B39E0EE3B4A186DE6DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-BandaidUITests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>0164C0DECB944132883DC1F8FC9FD448</string>
-				<string>985B1B4D5C26323D00D19C07210448F8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>82A7F9CC52370C8258A83E4B907FEC41</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0EA25B7BE5F4EA69E0C15D4FF254B716</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>82D0076EA1AD106BCA50C72CDF897F9B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>373C6899C68C7978E5FBD4C4A60E5010</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>887B29A8C326703BD9D71A55CFA31559</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FFB9359B58089B25989E9E91DA99BDF9</string>
-				<string>AD0B8368091CC9B4CF14BF69C5C3C151</string>
-				<string>98F7E10E5B031B34975581F1EDB16646</string>
-				<string>442ED99C0E06C044FE894DA9AE7E90CB</string>
-				<string>373C6899C68C7978E5FBD4C4A60E5010</string>
-				<string>786BF65F99BE5696B3A713E928384A52</string>
-				<string>C1507C579A18FE668B44339EEAA3F78C</string>
-				<string>42F889628DA21C9094AFAFB7580FAEC6</string>
-				<string>46D34EA07D5B860F7BFA6349792CDBDA</string>
-				<string>E5E9CF04C6AB223D5A639C06A8EAE3B5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-BandaidTests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-BandaidTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DB3B4B4552B08003D4FA7F212BF6011</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Bandaid-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8EF206ACE93DC2C1559C196C445FF143</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A9E3A845C1D594CED1988BD611B3EB3C</string>
-				<string>0976D4C35A92429865F73C3F329D3AE2</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>9407C1918A6F54C7329CDDFB821C871C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Bandaid.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>985B1B4D5C26323D00D19C07210448F8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0152EF7C477F3C4F93AB4E75F6057D50</string>
-				<string>887B29A8C326703BD9D71A55CFA31559</string>
-				<string>D826E2FF24AB5253C41F71F41317A54B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98F7E10E5B031B34975581F1EDB16646</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-BandaidTests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9AEDF356B4BF0556968174D69562ED33</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2B6F5B0689E8438D81126168C828ECB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F43D96D2305E7ABC8D7338356526DF2C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A70DCFB723C912CF75F54808C3D2F478</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B9B2B1ED73C82E62929E911A694B6E5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A70FFCE7FF83D79C0235E35E046BFE52</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8EF206ACE93DC2C1559C196C445FF143</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FCE4D63ECAB0AD2D4B79863B6B5346AE</string>
-				<string>64232C272818AE6BAD194DB75D4480AD</string>
-				<string>A2B6F5B0689E8438D81126168C828ECB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-BandaidTests</string>
-			<key>productName</key>
-			<string>Pods-BandaidTests</string>
-			<key>productReference</key>
-			<string>E9E9286811992080FD7AF207B37C7C64</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>A9E3A845C1D594CED1988BD611B3EB3C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>46D34EA07D5B860F7BFA6349792CDBDA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-BandaidTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-BandaidTests/Pods-BandaidTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_BandaidTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>ACD8FBDDF64981778A995079D3A65251</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AD0B8368091CC9B4CF14BF69C5C3C151</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-BandaidTests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AD8FCEECD8F5E3C7EC9375D29FE8D907</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Bandaid-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE9439C22469D35336242DD983DB5C5F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_DEBUG=1</string>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B3CCB9E8982410EC3C2C0B1B792BD0B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Bandaid-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B5972448D190D60C0AD53E4DB0C0B319</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Bandaid.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9B2B1ED73C82E62929E911A694B6E5D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Bandaid-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3DCAB2B7CDE207B3958B6CB957FCC758</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF0A61F16772665242317BDB75DA1223</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_BandaidUITests.framework</string>
-			<key>path</key>
-			<string>Pods-BandaidUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C1507C579A18FE668B44339EEAA3F78C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-BandaidTests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4C878E24183E9C7ABDFC877C0ACACAF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-BandaidUITests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7E4CD7C37BEB963B17D42E60A882CD1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FCE30D97DC11269EF05C6B2204749A79</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-BandaidUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-BandaidUITests/Pods-BandaidUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_BandaidUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>0164C0DECB944132883DC1F8FC9FD448</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>1F2F9A12AC5B4B9D369CE2E2ADF2B4E3</string>
-				<string>A70FFCE7FF83D79C0235E35E046BFE52</string>
-				<string>67F2E8CA95D6748F47D8CE94CED3895F</string>
-			</array>
-		</dict>
-		<key>D71E939EE2715B6F6BD54E78195A68A8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D826E2FF24AB5253C41F71F41317A54B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9AEDF356B4BF0556968174D69562ED33</string>
-				<string>7B14C0BFDB209B39E0EE3B4A186DE6DA</string>
-				<string>1C3C7B0B7E83622E011B1AC2D6896B95</string>
-				<string>C4C878E24183E9C7ABDFC877C0ACACAF</string>
-				<string>08C8D3834F6ECCEF080848EDCB4B46D1</string>
-				<string>71BF147FE5185EB7897D5A0C4B2DC900</string>
-				<string>E0AF059EAB985BACDC8DD5DDEE5469FB</string>
-				<string>E1040B54153033F60C936DDEECC0063C</string>
-				<string>031E854E9FAE58144F37ED57F233A6A9</string>
-				<string>FCE30D97DC11269EF05C6B2204749A79</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-BandaidUITests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-BandaidUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFC9F2BC4D4D18B6358C1332778B51E2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>71F24F20685DC267EB29E6E080001387</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E0AF059EAB985BACDC8DD5DDEE5469FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-BandaidUITests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1040B54153033F60C936DDEECC0063C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-BandaidUITests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E5E9CF04C6AB223D5A639C06A8EAE3B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BandaidTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9E9286811992080FD7AF207B37C7C64</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_BandaidTests.framework</string>
-			<key>path</key>
-			<string>Pods-BandaidTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F43D96D2305E7ABC8D7338356526DF2C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>42F889628DA21C9094AFAFB7580FAEC6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FAB4BFD9CAB7B173A9008B90E9C2BBA0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9407C1918A6F54C7329CDDFB821C871C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Bandaid/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Bandaid/Pods-Bandaid.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Bandaid</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FAD44A03FC073C398744E11E9CBCAD98</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ACD8FBDDF64981778A995079D3A65251</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FCE30D97DC11269EF05C6B2204749A79</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BandaidUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FCE4D63ECAB0AD2D4B79863B6B5346AE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>82D0076EA1AD106BCA50C72CDF897F9B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FFB9359B58089B25989E9E91DA99BDF9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059F0E51D5DA72DC54B48E6DB10EFAC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		12AC1C8D3E4D1E8244ABB912540961D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		46DBD887F62AB50E72C6CE2B5866CCB1 /* UsergridEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966DFFFF02264FC5E4F70AAF2DA189E6 /* UsergridEntity.swift */; };
+		5062C3A49404E152632EAC582C29B94F /* UsergridAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B848568B78E48E93F098CC073537009 /* UsergridAsset.swift */; };
+		5A682C34E6E35793F8A312A244B7FE16 /* Pods-Bandaid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E2304B3F0F1CB33178A4216A92C68 /* Pods-Bandaid-dummy.m */; };
+		5F9E97EDD09EFA7828402035C3A36750 /* UsergridDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E625E65F73657BEF1CA4282AF951936 /* UsergridDevice.swift */; };
+		62F955892492EB37D1B3B77EB9BBDB6F /* UsergridQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD81B4936A1C61CDDA11DF9800BD95 /* UsergridQuery.swift */; };
+		6441B6C6010C21A3BDED8CB63D74884C /* UsergridRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A513A518E84B20B667009FC98768B56 /* UsergridRequestManager.swift */; };
+		6B5314C2AF7EDA75A8A5DD11F0BD49C3 /* Usergrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9E7E06603BF91B2CEFFFD6B5D70E8 /* Usergrid.swift */; };
+		7BCFC46F86731F0B676911819A3071EE /* UsergridUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952EB7F13893BDE70D4476D14BB1478 /* UsergridUser.swift */; };
+		7DDC01B471C9DD5F3D0CF46F1A613A2A /* UsergridClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F9A2B43B68A7C33A2E623758AB1180 /* UsergridClient.swift */; };
+		940376728346AA850128C66F2DC029D1 /* UsergridEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FD39B62D07F14FB3D017CD319B2B70 /* UsergridEnums.swift */; };
+		9A92633AD9A11B7546F6E3BE4DA2BB35 /* UsergridKeychainHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346C2A2E1717FAD4693D6524C9F8AD3 /* UsergridKeychainHelpers.swift */; };
+		A228E867C90658F1A8177FA396DE389C /* UsergridAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3DB8291E5A21F33E947E3F85F554AB /* UsergridAuth.swift */; };
+		B805999E8CF5752BC9FD853F4D6C7077 /* UsergridResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02097EE8B88EC5C277942153D6E4EF7 /* UsergridResponseError.swift */; };
+		BDDF4C6BE8A610517F012DA5DE00F6AB /* UsergridExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D40257265D30548B820070CC3A68BF6 /* UsergridExtensions.swift */; };
+		C1FB1613C3B5ED50A8FAEBC66DF499BA /* UsergridSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E55A486023B1C734DD9E65CC7C977B91 /* UsergridSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAD8A295B8E8CB164455A8177908C4D2 /* UsergridRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391D7BBE054AF747E9ED651BE7992F38 /* UsergridRequest.swift */; };
+		D0249BEB403B7AC4B61A04FDC2E3D1B6 /* UsergridSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C872FCDDF6A0A418A62F8F57343D521 /* UsergridSessionDelegate.swift */; };
+		D754A6EB6ED0DDF6CD8B7F4AF7EEDF4D /* UsergridClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DDCB61618B829A772E3365B52EB787 /* UsergridClientConfig.swift */; };
+		D769C1D169F1D1E114C2A65346FC7FD4 /* UsergridSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59529C138638E24C44B94E31877B1515 /* UsergridSDK-dummy.m */; };
+		F11CEE4AFF14EDF86190559238A5DA16 /* UsergridResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EF2AF6E49671A21A9CA14D425889C /* UsergridResponse.swift */; };
+		F42388A89D6B13A65AC7C40A49D1930C /* UsergridFileMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF962748304028025069C4B46FCEF50 /* UsergridFileMetaData.swift */; };
+		FCE52AEAE9CC895D331CEF01339DF509 /* UsergridAssetRequestWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A7ED89E354665B5D40EEE68C2719D7 /* UsergridAssetRequestWrapper.swift */; };
+		FE01EFF243657EFCEFDD891734EDFE54 /* Pods-Bandaid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 654ED87AF04C65545D8BA65B04EE1583 /* Pods-Bandaid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29484513788CC3A9B9949D52528D91F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E980EB51C2988A71A42ED936F2312056;
+			remoteInfo = UsergridSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A7ED89E354665B5D40EEE68C2719D7 /* UsergridAssetRequestWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridAssetRequestWrapper.swift; path = sdks/swift/Source/UsergridAssetRequestWrapper.swift; sourceTree = "<group>"; };
+		09B7F7B37DF0BF6EFDC6EC8D6DE3074A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B848568B78E48E93F098CC073537009 /* UsergridAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridAsset.swift; path = sdks/swift/Source/UsergridAsset.swift; sourceTree = "<group>"; };
+		1A5EF2AF6E49671A21A9CA14D425889C /* UsergridResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridResponse.swift; path = sdks/swift/Source/UsergridResponse.swift; sourceTree = "<group>"; };
+		1FB9E7E06603BF91B2CEFFFD6B5D70E8 /* Usergrid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Usergrid.swift; path = sdks/swift/Source/Usergrid.swift; sourceTree = "<group>"; };
+		29FD81B4936A1C61CDDA11DF9800BD95 /* UsergridQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridQuery.swift; path = sdks/swift/Source/UsergridQuery.swift; sourceTree = "<group>"; };
+		30FD39B62D07F14FB3D017CD319B2B70 /* UsergridEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridEnums.swift; path = sdks/swift/Source/UsergridEnums.swift; sourceTree = "<group>"; };
+		391D7BBE054AF747E9ED651BE7992F38 /* UsergridRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridRequest.swift; path = sdks/swift/Source/UsergridRequest.swift; sourceTree = "<group>"; };
+		3B9E2304B3F0F1CB33178A4216A92C68 /* Pods-Bandaid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bandaid-dummy.m"; sourceTree = "<group>"; };
+		3C526DA2BEDE0580B57DFBDA30C74C5F /* Pods-Bandaid-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bandaid-acknowledgements.plist"; sourceTree = "<group>"; };
+		58DDCB61618B829A772E3365B52EB787 /* UsergridClientConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridClientConfig.swift; path = sdks/swift/Source/UsergridClientConfig.swift; sourceTree = "<group>"; };
+		59529C138638E24C44B94E31877B1515 /* UsergridSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UsergridSDK-dummy.m"; sourceTree = "<group>"; };
+		5D40257265D30548B820070CC3A68BF6 /* UsergridExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridExtensions.swift; path = sdks/swift/Source/UsergridExtensions.swift; sourceTree = "<group>"; };
+		62BEF285F836E8E349DAA382E824A7E3 /* UsergridSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UsergridSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		654ED87AF04C65545D8BA65B04EE1583 /* Pods-Bandaid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bandaid-umbrella.h"; sourceTree = "<group>"; };
+		6C872FCDDF6A0A418A62F8F57343D521 /* UsergridSessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridSessionDelegate.swift; path = sdks/swift/Source/UsergridSessionDelegate.swift; sourceTree = "<group>"; };
+		7318351347ABD9C22321C660DC580B21 /* UsergridSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UsergridSDK.modulemap; sourceTree = "<group>"; };
+		7C3DB8291E5A21F33E947E3F85F554AB /* UsergridAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridAuth.swift; path = sdks/swift/Source/UsergridAuth.swift; sourceTree = "<group>"; };
+		7E625E65F73657BEF1CA4282AF951936 /* UsergridDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridDevice.swift; path = sdks/swift/Source/UsergridDevice.swift; sourceTree = "<group>"; };
+		82F3D133F87BE23D32364321AB0547BA /* Pods-Bandaid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Bandaid.modulemap"; sourceTree = "<group>"; };
+		8D12F6E9E33144A8D0DA3C92078FFF84 /* Pods_Bandaid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bandaid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5BFF66DCFC3E318D20674302DA3ADA /* Pods-Bandaid-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bandaid-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966DFFFF02264FC5E4F70AAF2DA189E6 /* UsergridEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridEntity.swift; path = sdks/swift/Source/UsergridEntity.swift; sourceTree = "<group>"; };
+		9A513A518E84B20B667009FC98768B56 /* UsergridRequestManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridRequestManager.swift; path = sdks/swift/Source/UsergridRequestManager.swift; sourceTree = "<group>"; };
+		A02097EE8B88EC5C277942153D6E4EF7 /* UsergridResponseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridResponseError.swift; path = sdks/swift/Source/UsergridResponseError.swift; sourceTree = "<group>"; };
+		B4D686BAE35691F2E55159FD244851F4 /* Pods-Bandaid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bandaid.debug.xcconfig"; sourceTree = "<group>"; };
+		BCF962748304028025069C4B46FCEF50 /* UsergridFileMetaData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridFileMetaData.swift; path = sdks/swift/Source/UsergridFileMetaData.swift; sourceTree = "<group>"; };
+		BDEC9CE67F08D2A09C604BF278B69949 /* Pods-Bandaid-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bandaid-frameworks.sh"; sourceTree = "<group>"; };
+		BE13039E1D246C265EE68E2FA3AC1CA5 /* Pods-Bandaid-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bandaid-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C952EB7F13893BDE70D4476D14BB1478 /* UsergridUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridUser.swift; path = sdks/swift/Source/UsergridUser.swift; sourceTree = "<group>"; };
+		CD0482609B393DFDF4DA0689104C31CC /* UsergridSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UsergridSDK-prefix.pch"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D346C2A2E1717FAD4693D6524C9F8AD3 /* UsergridKeychainHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridKeychainHelpers.swift; path = sdks/swift/Source/UsergridKeychainHelpers.swift; sourceTree = "<group>"; };
+		D4F9A2B43B68A7C33A2E623758AB1180 /* UsergridClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsergridClient.swift; path = sdks/swift/Source/UsergridClient.swift; sourceTree = "<group>"; };
+		D51EB5A8360DB7E8A553585927A1E598 /* Pods-Bandaid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bandaid.release.xcconfig"; sourceTree = "<group>"; };
+		E55A486023B1C734DD9E65CC7C977B91 /* UsergridSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UsergridSDK-umbrella.h"; sourceTree = "<group>"; };
+		E63654B3066000CA69E18CB4AF609B4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F918C126143B0E9198288E2069CFEB4B /* UsergridSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UsergridSDK.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A57285AC19573D863420D53662AEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AC1C8D3E4D1E8244ABB912540961D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E9F9A1E9CE344DFAED1CD0BF96629F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059F0E51D5DA72DC54B48E6DB10EFAC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9123ABF77E4648716EE0DEDD91F572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D12F6E9E33144A8D0DA3C92078FFF84 /* Pods_Bandaid.framework */,
+				62BEF285F836E8E349DAA382E824A7E3 /* UsergridSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4BEF4B37B77CEC62C232979952E61BA6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CE47EA8F6A70168FF6FD601E8A798C3 /* Pods-Bandaid */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7CE47EA8F6A70168FF6FD601E8A798C3 /* Pods-Bandaid */ = {
+			isa = PBXGroup;
+			children = (
+				E63654B3066000CA69E18CB4AF609B4B /* Info.plist */,
+				82F3D133F87BE23D32364321AB0547BA /* Pods-Bandaid.modulemap */,
+				BE13039E1D246C265EE68E2FA3AC1CA5 /* Pods-Bandaid-acknowledgements.markdown */,
+				3C526DA2BEDE0580B57DFBDA30C74C5F /* Pods-Bandaid-acknowledgements.plist */,
+				3B9E2304B3F0F1CB33178A4216A92C68 /* Pods-Bandaid-dummy.m */,
+				BDEC9CE67F08D2A09C604BF278B69949 /* Pods-Bandaid-frameworks.sh */,
+				8E5BFF66DCFC3E318D20674302DA3ADA /* Pods-Bandaid-resources.sh */,
+				654ED87AF04C65545D8BA65B04EE1583 /* Pods-Bandaid-umbrella.h */,
+				B4D686BAE35691F2E55159FD244851F4 /* Pods-Bandaid.debug.xcconfig */,
+				D51EB5A8360DB7E8A553585927A1E598 /* Pods-Bandaid.release.xcconfig */,
+			);
+			name = "Pods-Bandaid";
+			path = "Target Support Files/Pods-Bandaid";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ABCD566CC79DC5337AAEC3C849B01FC2 /* Pods */,
+				2D9123ABF77E4648716EE0DEDD91F572 /* Products */,
+				4BEF4B37B77CEC62C232979952E61BA6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCD566CC79DC5337AAEC3C849B01FC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA6038041829AD3D09A82E45270369A6 /* UsergridSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA6038041829AD3D09A82E45270369A6 /* UsergridSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1FB9E7E06603BF91B2CEFFFD6B5D70E8 /* Usergrid.swift */,
+				0B848568B78E48E93F098CC073537009 /* UsergridAsset.swift */,
+				03A7ED89E354665B5D40EEE68C2719D7 /* UsergridAssetRequestWrapper.swift */,
+				7C3DB8291E5A21F33E947E3F85F554AB /* UsergridAuth.swift */,
+				D4F9A2B43B68A7C33A2E623758AB1180 /* UsergridClient.swift */,
+				58DDCB61618B829A772E3365B52EB787 /* UsergridClientConfig.swift */,
+				7E625E65F73657BEF1CA4282AF951936 /* UsergridDevice.swift */,
+				966DFFFF02264FC5E4F70AAF2DA189E6 /* UsergridEntity.swift */,
+				30FD39B62D07F14FB3D017CD319B2B70 /* UsergridEnums.swift */,
+				5D40257265D30548B820070CC3A68BF6 /* UsergridExtensions.swift */,
+				BCF962748304028025069C4B46FCEF50 /* UsergridFileMetaData.swift */,
+				D346C2A2E1717FAD4693D6524C9F8AD3 /* UsergridKeychainHelpers.swift */,
+				29FD81B4936A1C61CDDA11DF9800BD95 /* UsergridQuery.swift */,
+				391D7BBE054AF747E9ED651BE7992F38 /* UsergridRequest.swift */,
+				9A513A518E84B20B667009FC98768B56 /* UsergridRequestManager.swift */,
+				1A5EF2AF6E49671A21A9CA14D425889C /* UsergridResponse.swift */,
+				A02097EE8B88EC5C277942153D6E4EF7 /* UsergridResponseError.swift */,
+				6C872FCDDF6A0A418A62F8F57343D521 /* UsergridSessionDelegate.swift */,
+				C952EB7F13893BDE70D4476D14BB1478 /* UsergridUser.swift */,
+				E5F4776EFFE641BEDDEE4EEC7670276B /* Support Files */,
+			);
+			path = UsergridSDK;
+			sourceTree = "<group>";
+		};
+		E5F4776EFFE641BEDDEE4EEC7670276B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09B7F7B37DF0BF6EFDC6EC8D6DE3074A /* Info.plist */,
+				7318351347ABD9C22321C660DC580B21 /* UsergridSDK.modulemap */,
+				F918C126143B0E9198288E2069CFEB4B /* UsergridSDK.xcconfig */,
+				59529C138638E24C44B94E31877B1515 /* UsergridSDK-dummy.m */,
+				CD0482609B393DFDF4DA0689104C31CC /* UsergridSDK-prefix.pch */,
+				E55A486023B1C734DD9E65CC7C977B91 /* UsergridSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UsergridSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D2CD77C2031F2B0F3AE25D98BABB131 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FB1613C3B5ED50A8FAEBC66DF499BA /* UsergridSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFF12AB21DB0255600B5F2C7E55245A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE01EFF243657EFCEFDD891734EDFE54 /* Pods-Bandaid-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6FC1D943469248AEFA5AD785D7EEB8BC /* Pods-Bandaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97AA4C43BDEBF9D7289494B2D7DA4359 /* Build configuration list for PBXNativeTarget "Pods-Bandaid" */;
+			buildPhases = (
+				92889B3353FCFF6AD5259C58DC30F25A /* Sources */,
+				34A57285AC19573D863420D53662AEC3 /* Frameworks */,
+				DFFF12AB21DB0255600B5F2C7E55245A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F48D24C2D2F94FCA250F36E2F53A02 /* PBXTargetDependency */,
+			);
+			name = "Pods-Bandaid";
+			productName = "Pods-Bandaid";
+			productReference = 8D12F6E9E33144A8D0DA3C92078FFF84 /* Pods_Bandaid.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E980EB51C2988A71A42ED936F2312056 /* UsergridSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A161D606064A3A0D9B31E5089D7E5A5C /* Build configuration list for PBXNativeTarget "UsergridSDK" */;
+			buildPhases = (
+				AE74A5F75ADE44CBA4294E462094645A /* Sources */,
+				A6E9F9A1E9CE344DFAED1CD0BF96629F /* Frameworks */,
+				3D2CD77C2031F2B0F3AE25D98BABB131 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsergridSDK;
+			productName = UsergridSDK;
+			productReference = 62BEF285F836E8E349DAA382E824A7E3 /* UsergridSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2D9123ABF77E4648716EE0DEDD91F572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FC1D943469248AEFA5AD785D7EEB8BC /* Pods-Bandaid */,
+				E980EB51C2988A71A42ED936F2312056 /* UsergridSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92889B3353FCFF6AD5259C58DC30F25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A682C34E6E35793F8A312A244B7FE16 /* Pods-Bandaid-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE74A5F75ADE44CBA4294E462094645A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5314C2AF7EDA75A8A5DD11F0BD49C3 /* Usergrid.swift in Sources */,
+				5062C3A49404E152632EAC582C29B94F /* UsergridAsset.swift in Sources */,
+				FCE52AEAE9CC895D331CEF01339DF509 /* UsergridAssetRequestWrapper.swift in Sources */,
+				A228E867C90658F1A8177FA396DE389C /* UsergridAuth.swift in Sources */,
+				7DDC01B471C9DD5F3D0CF46F1A613A2A /* UsergridClient.swift in Sources */,
+				D754A6EB6ED0DDF6CD8B7F4AF7EEDF4D /* UsergridClientConfig.swift in Sources */,
+				5F9E97EDD09EFA7828402035C3A36750 /* UsergridDevice.swift in Sources */,
+				46DBD887F62AB50E72C6CE2B5866CCB1 /* UsergridEntity.swift in Sources */,
+				940376728346AA850128C66F2DC029D1 /* UsergridEnums.swift in Sources */,
+				BDDF4C6BE8A610517F012DA5DE00F6AB /* UsergridExtensions.swift in Sources */,
+				F42388A89D6B13A65AC7C40A49D1930C /* UsergridFileMetaData.swift in Sources */,
+				9A92633AD9A11B7546F6E3BE4DA2BB35 /* UsergridKeychainHelpers.swift in Sources */,
+				62F955892492EB37D1B3B77EB9BBDB6F /* UsergridQuery.swift in Sources */,
+				CAD8A295B8E8CB164455A8177908C4D2 /* UsergridRequest.swift in Sources */,
+				6441B6C6010C21A3BDED8CB63D74884C /* UsergridRequestManager.swift in Sources */,
+				F11CEE4AFF14EDF86190559238A5DA16 /* UsergridResponse.swift in Sources */,
+				B805999E8CF5752BC9FD853F4D6C7077 /* UsergridResponseError.swift in Sources */,
+				D769C1D169F1D1E114C2A65346FC7FD4 /* UsergridSDK-dummy.m in Sources */,
+				D0249BEB403B7AC4B61A04FDC2E3D1B6 /* UsergridSessionDelegate.swift in Sources */,
+				7BCFC46F86731F0B676911819A3071EE /* UsergridUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56F48D24C2D2F94FCA250F36E2F53A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UsergridSDK;
+			target = E980EB51C2988A71A42ED936F2312056 /* UsergridSDK */;
+			targetProxy = 29484513788CC3A9B9949D52528D91F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15C45FCB948984D3BEB252DA0C3F69D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D686BAE35691F2E55159FD244851F4 /* Pods-Bandaid.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bandaid/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bandaid/Pods-Bandaid.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Bandaid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1704790DCC6411E48A68417F4660C0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F918C126143B0E9198288E2069CFEB4B /* UsergridSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UsergridSDK/UsergridSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UsergridSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UsergridSDK/UsergridSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UsergridSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F9A262BCFD43ED018EE52AE0524528C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51EB5A8360DB7E8A553585927A1E598 /* Pods-Bandaid.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bandaid/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bandaid/Pods-Bandaid.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Bandaid;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A57525A16AC35C66CC6330FBF4691135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F918C126143B0E9198288E2069CFEB4B /* UsergridSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UsergridSDK/UsergridSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UsergridSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UsergridSDK/UsergridSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UsergridSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97AA4C43BDEBF9D7289494B2D7DA4359 /* Build configuration list for PBXNativeTarget "Pods-Bandaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C45FCB948984D3BEB252DA0C3F69D2 /* Debug */,
+				9F9A262BCFD43ED018EE52AE0524528C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A161D606064A3A0D9B31E5089D7E5A5C /* Build configuration list for PBXNativeTarget "UsergridSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57525A16AC35C66CC6330FBF4691135 /* Debug */,
+				1704790DCC6411E48A68417F4660C0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

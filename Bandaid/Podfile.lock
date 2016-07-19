@@ -1,3 +1,22 @@
-PODFILE CHECKSUM: 41259bfff5deb71f045e2d5bff392309c6323aea
+PODS:
+  - UsergridSDK (2.1.1)
+
+DEPENDENCIES:
+  - UsergridSDK (from `https://github.com/robertwalsh/usergrid.git`, branch `iOS_Swift3`)
+
+EXTERNAL SOURCES:
+  UsergridSDK:
+    :branch: iOS_Swift3
+    :git: https://github.com/robertwalsh/usergrid.git
+
+CHECKOUT OPTIONS:
+  UsergridSDK:
+    :commit: d8d7c18d46b9e44f829673092da566668eef5cf3
+    :git: https://github.com/robertwalsh/usergrid.git
+
+SPEC CHECKSUMS:
+  UsergridSDK: 45fc7f09df6967fba06742ccad4f99bea423dedb
+
+PODFILE CHECKSUM: 707a7effc2b1d5fc83278cc2785846db07c22542
 
 COCOAPODS: 1.0.1
