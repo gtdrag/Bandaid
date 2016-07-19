@@ -1,0 +1,6 @@
+framework module Pods_Bandaid {
+  umbrella header "Pods-Bandaid-umbrella.h"
+
+  export *
+  module * { export * }
+}
