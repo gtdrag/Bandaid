@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		638226A01D3EAF5400ADE3F4 /* UsergridSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6382269F1D3EAF5400ADE3F4 /* UsergridSDK.framework */; };
+		47C3C2F4C5DFFA930740C9A1 /* Pods_Bandaid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8F5ECC1E722335DDDA15DD /* Pods_Bandaid.framework */; };
 		D62ECAC31D3EA96D00B5271D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAC21D3EA96D00B5271D /* AppDelegate.swift */; };
 		D62ECAC51D3EA96D00B5271D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAC41D3EA96D00B5271D /* ViewController.swift */; };
 		D62ECAC81D3EA96D00B5271D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62ECAC61D3EA96D00B5271D /* Main.storyboard */; };
@@ -37,6 +37,7 @@
 /* Begin PBXFileReference section */
 		560674288016026FBD1B5D3D /* Pods-Bandaid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandaid.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bandaid/Pods-Bandaid.release.xcconfig"; sourceTree = "<group>"; };
 		6382269F1D3EAF5400ADE3F4 /* UsergridSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UsergridSDK.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Bandaid-daxacrvsmenssdckvjzuqacvnrgx/Build/Products/Debug-iphonesimulator/UsergridSDK/UsergridSDK.framework"; sourceTree = "<group>"; };
+		638226A11D3EB2EA00ADE3F4 /* Pods_Bandaid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Bandaid.framework; path = "Pods/../build/Debug-iphoneos/Pods_Bandaid.framework"; sourceTree = "<group>"; };
 		8E8F5ECC1E722335DDDA15DD /* Pods_Bandaid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bandaid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B662E084C17FA3AAC0DA0D2B /* Pods-Bandaid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandaid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bandaid/Pods-Bandaid.debug.xcconfig"; sourceTree = "<group>"; };
 		D62ECABF1D3EA96D00B5271D /* Bandaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bandaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				638226A01D3EAF5400ADE3F4 /* UsergridSDK.framework in Frameworks */,
+				47C3C2F4C5DFFA930740C9A1 /* Pods_Bandaid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +84,7 @@
 		15AC6FFB905ADAE4F2CE2745 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				638226A11D3EB2EA00ADE3F4 /* Pods_Bandaid.framework */,
 				6382269F1D3EAF5400ADE3F4 /* UsergridSDK.framework */,
 				8E8F5ECC1E722335DDDA15DD /* Pods_Bandaid.framework */,
 			);
@@ -566,6 +568,10 @@
 			baseConfigurationReference = B662E084C17FA3AAC0DA0D2B /* Pods-Bandaid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Bandaid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gtd.Bandaid;
@@ -579,6 +585,10 @@
 			baseConfigurationReference = 560674288016026FBD1B5D3D /* Pods-Bandaid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Bandaid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gtd.Bandaid;
