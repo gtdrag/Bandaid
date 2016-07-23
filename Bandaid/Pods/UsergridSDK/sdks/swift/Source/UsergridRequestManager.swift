@@ -44,14 +44,14 @@ final class UsergridRequestManager {
         #if os(tvOS)
         config.httpAdditionalHeaders = ["User-Agent": "usergrid-tvOS/v\(UsergridSDKVersion)"]
         #elseif os(iOS)
-        config.httpAdditionalHeaders = ["User-Agent": "usergrid-ios/v\(UsergridSDKVersion)"]
+        config().httpAdditionalHeaders = ["User-Agent": "usergrid-ios/v\(UsergridSDKVersion)"]
         #elseif os(watchOS)
         config.httpAdditionalHeaders = ["User-Agent": "usergrid-watchOS/v\(UsergridSDKVersion)"]
         #elseif os(OSX)
         config.httpAdditionalHeaders = ["User-Agent": "usergrid-osx/v\(UsergridSDKVersion)"]
         #endif
 
-        self.session = URLSession(configuration:  config,
+        self.session = URLSession(configuration:  config(),
                                     delegate:       UsergridSessionDelegate(),
                                     delegateQueue:  nil)
     }

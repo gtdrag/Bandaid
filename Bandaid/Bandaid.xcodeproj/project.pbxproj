@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		47C3C2F4C5DFFA930740C9A1 /* Pods_Bandaid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8F5ECC1E722335DDDA15DD /* Pods_Bandaid.framework */; };
 		D62ECAC31D3EA96D00B5271D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAC21D3EA96D00B5271D /* AppDelegate.swift */; };
-		D62ECAC51D3EA96D00B5271D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAC41D3EA96D00B5271D /* LoginViewController.swift */; };
 		D62ECAC81D3EA96D00B5271D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62ECAC61D3EA96D00B5271D /* Main.storyboard */; };
 		D62ECACA1D3EA96D00B5271D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62ECAC91D3EA96D00B5271D /* Assets.xcassets */; };
 		D62ECACD1D3EA96D00B5271D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62ECACB1D3EA96D00B5271D /* LaunchScreen.storyboard */; };
 		D62ECAD81D3EA96E00B5271D /* BandaidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAD71D3EA96E00B5271D /* BandaidTests.swift */; };
 		D62ECAE31D3EA96E00B5271D /* BandaidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAE21D3EA96E00B5271D /* BandaidUITests.swift */; };
+		D66F20BE1D441CBA00716303 /* protectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ECAC41D3EA96D00B5271D /* protectedViewController.swift */; };
+		D6F37E141D4408B20032A720 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F37E131D4408B20032A720 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,7 @@
 		B662E084C17FA3AAC0DA0D2B /* Pods-Bandaid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandaid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bandaid/Pods-Bandaid.debug.xcconfig"; sourceTree = "<group>"; };
 		D62ECABF1D3EA96D00B5271D /* Bandaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bandaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62ECAC21D3EA96D00B5271D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D62ECAC41D3EA96D00B5271D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D62ECAC41D3EA96D00B5271D /* protectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protectedViewController.swift; sourceTree = "<group>"; };
 		D62ECAC71D3EA96D00B5271D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D62ECAC91D3EA96D00B5271D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D62ECACC1D3EA96D00B5271D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		D62ECADE1D3EA96E00B5271D /* BandaidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandaidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62ECAE21D3EA96E00B5271D /* BandaidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandaidUITests.swift; sourceTree = "<group>"; };
 		D62ECAE41D3EA96E00B5271D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F37E131D4408B20032A720 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				D62ECAC21D3EA96D00B5271D /* AppDelegate.swift */,
-				D62ECAC41D3EA96D00B5271D /* LoginViewController.swift */,
+				D6F37E131D4408B20032A720 /* LoginViewController.swift */,
+				D62ECAC41D3EA96D00B5271D /* protectedViewController.swift */,
 				D62ECAC61D3EA96D00B5271D /* Main.storyboard */,
 				D62ECAC91D3EA96D00B5271D /* Assets.xcassets */,
 				D62ECACB1D3EA96D00B5271D /* LaunchScreen.storyboard */,
@@ -418,7 +421,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D62ECAC51D3EA96D00B5271D /* LoginViewController.swift in Sources */,
+				D66F20BE1D441CBA00716303 /* protectedViewController.swift in Sources */,
+				D6F37E141D4408B20032A720 /* LoginViewController.swift in Sources */,
 				D62ECAC31D3EA96D00B5271D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
