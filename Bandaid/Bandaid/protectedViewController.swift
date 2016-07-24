@@ -16,7 +16,8 @@ class protectedViewController: UIViewController {
         super.viewDidAppear(animated)
         
         let auth = UserDefaults.standard().string(forKey: "userAuthenticated")
-        if (auth! != "YES"){
+        if (auth != "YES")
+        {
         self.performSegue(withIdentifier: "loginView", sender: self)
         }
        
